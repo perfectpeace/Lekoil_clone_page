@@ -823,12 +823,16 @@ h4{
     padding: 10px;
 }
 
-  @media(max-width:760px){
-    
-        .column{ flex-direction: column;}
+  @media(max-width:768px){
+  .latest-news .flex-box .column{ flex-direction: column;
+Overflow;none
+Align: items center
+}
     main{
         float: none;
         width: 100%;
+
     }
-    
+    .description{font-size:30px; 
+Max-width:100%}
 }
